@@ -1,0 +1,21 @@
+Transaction ID,Date,User ID,Book Title,Genre,Borrowing Duration (Days)
+T001,2025-01-02,U101,The Silent River,Fiction,5
+T002,2025-02-03,U102,World of Numbers,Education,15
+T003,2025-03-04,U103,The Lost Hero,Adventure,7
+T004,2025-04-05,U101,Python Basics,Education,4
+T005,2025-012-06,U104,Love in Paris,Romance,6
+T006,2025-02-07,U105,Deep Space,Science,5
+T007,2025-05-08,U103,The Silent River,Fiction,4
+T008,2025-02-09,U106,The Mystery House,Thriller,5
+T009,2025-010-10,U107,World of Numbers,Education,3
+T010,2025-01-11,U108,The Lost Hero,Adventure,8
+T011,2025-09-12,U109,Python Basics,Education,4
+T012,2025-01-13,U110,The Silent River,Fiction,2
+T013,2025-08-14,U102,Love in Paris,Romance,5
+T014,2025-01-15,U111,Deep Space,Science,7
+T015,2025-06-16,U112,Galaxy Warriors,Science Fiction,2
+T016,2025-01-17,U113,The Mystery House,Thriller,4
+T017,2025-07-18,U114,Python Basics,Education,1
+T018,2025-08-19,U115,Love in Paris,Romance,6
+T019,2025-02-20,U108,The Lost Hero,Adventure,7
+T020,2025-04-21,U116,Deep Space,Science,5
