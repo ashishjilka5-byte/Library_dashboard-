@@ -64,7 +64,7 @@ class LibraryDashboard:
         self.data["Date"] = pd.to_datetime(self.data["Date"])
         self.data["Month"] = self.data["Date"].dt.month
         monthly_counts = self.data.groupby("Month")["Transaction ID"].count()
-        monthly_counts.plot(kind="line", marker='o')  # marker makes points visible
+        monthly_counts.plot(kind="line", marker='o')  
         plt.title("Borrowing Trend Over Months")
         plt.xlabel("Month")
         plt.ylabel("Transactions")
@@ -113,4 +113,5 @@ if __name__ == "__main__":
     dashboard.calculate_statistics()
     dashboard.filter_transactions("Genre", "Fiction")  # Example filter
     dashboard.generate_report()
+
     dashboard.visualize()
